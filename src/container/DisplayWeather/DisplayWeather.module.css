@@ -1,0 +1,33 @@
+.Weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Weather h1 {
+  font-size: 700%;
+  margin: auto;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.DaysRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 1350px) {
+  .DaysRow {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    justify-content: space-around;
+  }
+}

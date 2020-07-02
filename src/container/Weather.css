@@ -1,0 +1,49 @@
+.Weather {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(
+    to right bottom,
+    rgb(235, 144, 40),
+    rgb(211, 67, 67)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1350px) {
+  .Weather {
+    height: 130vh;
+  }
+}
+
+@media (max-height: 1300px) {
+  .Weather {
+    height: 150vh;
+  }
+}
+
+@media (max-height: 1000px) {
+  .Weather {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .Weather {
+    width: 120%;
+    
+  }
+}
+
+@media (max-height: 700px) {
+  .Weather {
+    height: 250vh;
+    justify-content: start;
+  }
+}
